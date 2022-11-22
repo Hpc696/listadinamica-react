@@ -1,7 +1,10 @@
-export default function Card(props){
+import Elemento from "./Elemento"
+
+export default function Card(){
 
     return (
-       <div>{props.children}</div> 
+       <ul>
+            <Elemento />
+       </ul> 
     )
 }
-//guardare altre props
