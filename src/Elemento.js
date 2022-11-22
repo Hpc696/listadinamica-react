@@ -6,10 +6,10 @@ export default function Elemento(){
 
     return(
          listaOggetti.map((elemento) =>
-            <li key={elemento.id}>
+            <li className='card' key={elemento.id}>
                 <Nome titolo={elemento.nome}/>
-                <Immagine url={elemento.immagine} nm={elemento.nome}/>
-            </li> 
+                <Immagine className='immagini' url={elemento.immagine} nm={elemento.nome}/>
+            </li>
         )
 
     )
