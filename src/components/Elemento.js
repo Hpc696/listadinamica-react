@@ -1,4 +1,4 @@
-import { listaOggetti } from "./ListaOggetti"
+import { listaOggetti } from "../objects/ListaOggetti"
 import Immagine from "./Immagine"
 import Nome from "./Nome"
 
