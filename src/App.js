@@ -1,9 +1,9 @@
+import Lista from "./Lista";
 
 function App() {
+  console.log('App is running...')
   return (
-    <div>
-      Happy Hacking!
-    </div>
+    <Lista/>
   );
 }
 
